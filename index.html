@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Bil ZHOU's Homepage</title>
+		<link rel="shortcut icon" href="./favicon.ico">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+		<script src="https://kit.fontawesome.com/19f9ecae7c.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<script src="./js/index.js"></script>
+	</head>
+	<body>
+		<div class="nav">
+			<span><img src="./favicon.png" class="logo"></span>
+			<span class="nav-bar">
+				<ul class="nav-detail">
+					<li><a href="#about">About</a></li>
+					<li><a href="#skill">Skill</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#experiences">Experiences</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</span>
+			<span><i class="fas fa-bars fa-bars-cursor"></i></span>
+		</div>
+		<div id="about">
+
+			<div class="about-left">
+				<p class="name">Bill ZHOU</p>
+				<p class="job-title">Passionate Developer <br>In New Zealand</p>
+				<p class="role">I am a freelancer</p>
+				<p class="role">I am a growth web developer</p>
+
+				<!-- <p> Here is my discription</p> -->
+				<span class="tech-img"><img src="./imgs/1.png"></span>
+			</div>
+			<div class="about-right">
+				<div id="card-bottom">
+				</div>
+				<div id="card-top">
+				</div>
+			</div>
+		</div>
+		<div id="skill">
+			<div id="skill-container">
+				<div class="skills-discription">
+					<p class="skill-title">Skills</p>
+					<p class="sub-skill-title">Porgraming Skills</p>
+					<p class="role">The new generation programing languages
+						make strong creative and analytical skills </p>
+				</div>
+
+				<div class="skill-detail">
+					<div class="skill-detail-title skill-html">
+						<span>XHTML/HTML5/CSS/CSS3</span>
+						<span>90%</span>
+					</div>
+					<div class="skill-detail-progress">
+						<div class="solid-skill solid-skill-html">
+						</div>
+					</div>
+				</div>
+				<div class="skill-detail">
+					<div class="skill-detail-title skill-css">
+						<span>JavaScript/ECMA6/DOM/BOM</span>
+						<span>85%</span>
+					</div>
+					<div class="skill-detail-progress">
+						<div class="solid-skill solid-skill-js">
+						</div>
+					</div>
+				</div>
+				<div class="skill-detail">
+					<div class="skill-detail-title skill-JQuery">
+						<span>JQuery/Ajax</span>
+						<span>85%</span>
+					</div>
+					<div class="skill-detail-progress">
+						<div class="solid-skill solid-skill-jquery">
+						</div>
+					</div>
+				</div>
+				<div class="skill-detail">
+					<div class="skill-detail-title skill-node">
+						<span>Node/Require/React</span>
+						<span>80%</span>
+					</div>
+					<div class="skill-detail-progress">
+						<div class="solid-skill solid-skill-node">
+						</div>
+					</div>
+				</div>
+				<div class="skill-detail">
+					<div class="skill-detail-title skill-wp">
+						<span>WordPress/SQL/PHP</span>
+						<span>80%</span>
+					</div>
+					<div class="skill-detail-progress">
+						<div class="solid-skill solid-skill-wp">
+						</div>
+					</div>
+				</div>
+				<div class="skill-detail">
+					<div class="skill-detail-title skill-java-shell">
+						<span>JAVA/Linux SHELL</span>
+						<span>80%</span>
+					</div>
+					<div class="skill-detail-progress">
+						<div class="solid-skill solid-skill-java-shell">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="portfolio">
+			<p class="portfolio-title">Portfolio</p>
+			<p class="sub-portfolio-title">My Works</p>
+			<div class="slideshow">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper myswiper-wrapper">
+						<div class="swiper-slide mySwiper-slide">
+							<div class="mySwiper-slide-frame mcmd-slide">
+								<div class="slide-cover">
+									<a class="mcmd-link slide-discription" href="./MCMD/index.html"
+										target="_blank">Website Optimization</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide mySwiper-slide">
+							<div class="mySwiper-slide-frame android-dev-slide">
+								<div class="slide-cover">
+									<a class="slide-discription" href="https://play.google.com/sto
+										re/apps/details?id=com.emw_calculator&hl
+										=en&gl=US">Android App Development</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide mySwiper-slide">
+							<div class="mySwiper-slide-frame">
+								<div class="slide-cover">
+									<a class="slide-discription">Coming soon!!!!</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next swiper-button-l"></div>
+					<div class="swiper-button-prev swiper-button-r"></div>
+
+				</div>
+			</div>
+			<script>
+				var myswiper = new Swiper(".mySwiper", {
+					slidesPerView: 3,
+					spaceBetween: 30,
+					loop: true,
+					grabCursor: true, // cursor changes to hand
+					mousewheel: true, //-----------------wheel control
+					//----------------autoplay part start
+					autoplay: {
+						delay: 5000,
+						disableOnInteraction: false,
+						pauseOnMouseEnter: true,
+					},
+					//--------------autoplay part end
+					navigation: {
+						nextEl: ".swiper-button-next",
+						prevEl: ".swiper-button-prev",
+					},
+				});
+			</script>
+
+		</div>
+		<div id="experiences">
+			<div class="experience-container">
+				<p class="experience-title">Experiences</p>
+				<p class="sub-experience-title">working period</p>
+				<div class="expert">
+					<div class="exper-box">
+						<div class="year">2021.4-Current</div>
+						<div class="job-position">Freelancer(New Zealand)</div>
+						<div class="role-discrib"> Website optimization | Web development and maintainance</div>
+					</div>
+					<div class="exper-box">
+						<div class="year">2021.2-2021.4</div>
+						<div class="company">Indevin Ltd(New Zealand)<br>Lab Technician</div>
+						<div class="role-discrib"> Data collection | Statistical analytics | Microsoft 365 maintanance |
+							Trouble shooting for records
+						</div>
+					</div>
+					<div class="exper-box">
+						<div class="year">2009.7-2019.7</div>
+						<div class="company">Hebei University(China)<br>Assistant Professor</div>
+						<div class="role-discrib">Website updating | Linux teaching | Hardware maintaining | Software
+							installing and uninstalling | Trouble shooting for general using | Customer Q&A
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="education">
+			<div class="education-container">
+				<p class="education-title">Education</p>
+				<p class="sub-education-title">Quanlification and Certification</p>
+				<div class="quanli-certi">
+					<div class="quanlicerli-box">
+						<div class="year-q">2020.2-2020.11</div>
+						<div class="subject">Post-Study Diploma in Information Technology <br>(Level8)</div>
+						<div class="institute"> Southern Institute of Technology(New Zealand)</div>
+					</div>
+					<div class="quanlicerli-box">
+						<div class="year-q">1998.9-2002.7</div>
+						<div class="subject">Bioengineering <br>(Level7)</div>
+						<div class="institute"> Harbin Normal University(China)
+						</div>
+					</div>
+					<div class="quanlicerli-box">
+						<div class="year-q">2000</div>
+						<div class="subject-company">Microsoft Certified System Engineer</div>
+						<div class="cer-link">https://sdfsafd
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contact">
+			<div class="contact-container">
+				<p class="contact-title">Contact</p>
+				<p class="sub-contact-title">Hire me !</p>
+				<div class="contact-detail">
+					<div class="contact-left">
+						<p>I am available for freelance work.<br>
+						Please send the emial or fill out the form on this section
+							to contact with me.</p>
+						<div class="contact-location">
+							<i class="fas fa-map-marker-alt"> </i> <span>Auckland, New Zealand</span>
+						</div>
+						<div class="contactemail">
+							<i class="fas fa-envelope"></i> <span>chuanqizhou@gmail.com</span>
+						</div>
+						<span class="social-meida"><i class="fab fa-linkedin"></i>LinkedIn</span> <span><i class="fab fa-facebook-square"></i>
+						Facebook</span> <span><i class="fab fa-github-square"></i>Github</span>
+						 <span><i class="fab fa-codepen"></i>Codepen</span>
+					</div>
+					<div class="contact-right">
+						<form action="" class="contact-form">
+							<div class="items">
+								<label class="contact-name" > Name</label>
+								<input type="text" class="name-detail" placeholder="Enter your name">
+							</div>
+							<div class="items">
+								<label class="contact-email"> Email</label>
+								<input type="email" class="email-detail" placeholder="Enter your emaill">
+							</div>
+							<div class="items">
+								<label class="contact-phone"> Phone</label>
+								<input type="number" class="phone-detail" min="999999" max="33333333333" placeholder="Enter your phone number">
+							</div>
+							<div class="items-message">
+								<label class="contact-message"> Message</label>
+								<textarea rows="" cols="" class="message-detail"></textarea>
+							</div>
+							<div class="reset-submit">
+								
+							<button type="reset" class="reset-btn">Reset</button>
+							<button type="submit" class="submit-btn">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+
+</html>
