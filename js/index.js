@@ -1,7 +1,6 @@
 // typing as printer on webpage
 import Typed from './typed.js';
 
-
 window.onload = function() {
     fabarPointer(); // mouse pointer for fabars
     navBarDisplayAlter(); //  navbar display or not
