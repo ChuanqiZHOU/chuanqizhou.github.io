@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f2a6208a.css",
+    "main.js": "/static/js/main.420a1a12.js",
+    "static/media/android-dev.jpeg": "/static/media/android-dev.3dc63d8479bb274fe7b4.jpeg",
+    "static/media/about_self.jpg": "/static/media/about_self.f2c86a4a31e100967e1f.jpg",
+    "static/media/mcmd_homepage_03.png": "/static/media/mcmd_homepage_03.d7a4dddf6367d35b9e96.png",
+    "static/media/1.png": "/static/media/1.79071cab6f302a6cc849.png",
+    "static/media/Brand.png": "/static/media/Brand.155bfadde087d11fa026.png",
+    "index.html": "/index.html",
+    "main.f2a6208a.css.map": "/static/css/main.f2a6208a.css.map",
+    "main.420a1a12.js.map": "/static/js/main.420a1a12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2a6208a.css",
+    "static/js/main.420a1a12.js"
+  ]
+}
